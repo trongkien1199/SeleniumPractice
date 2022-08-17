@@ -1,0 +1,16 @@
+test/OpenBrowser.class
+model/pages/Navigate.class
+model/pages/HomePage.class
+drivers/Webdriver.class
+model/pages/PageBase.class
+utils/Screenshot.class
+Listeners/ListenerISuite.class
+utils/PressKey.class
+test/TestRegister.class
+automation/Automation.class
+drivers/DriverFactory.class
+automation/Settings.class
+data/Data.class
+drivers/DriverBase.class
+test/TestBase.class
+model/pages/AccountPage.class

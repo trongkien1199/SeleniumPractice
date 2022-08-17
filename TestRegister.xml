@@ -1,0 +1,9 @@
+<suite name = "SmokeTest"  parallel="none" threa-count ="4" >
+    <test name = "Register Test - SAFARI">
+        <parameter name="browser" value="safari"></parameter>
+        <classes>
+            <class name = "test.TestRegister">
+            </class>
+        </classes>
+    </test>
+</suite>
