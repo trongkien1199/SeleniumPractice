@@ -185,7 +185,7 @@
         </div> <!-- panel SmokeTest -->
         <div panel-name="test-xml-SmokeTest" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/kien/Desktop/SeleniumPractice/TestRegister.xml</span>
+            <span class="header-content">/home/nexle/Desktop/SeleniumPractice/TestRegister.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -193,7 +193,7 @@
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite verbose=&quot;0&quot; name=&quot;SmokeTest&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Register Test - SAFARI&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;safari&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;test.TestRegister&quot;/&gt;
     &lt;/classes&gt;
@@ -239,28 +239,28 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'registerWithValidAccount')
 data.setCell(0, 2, 'test.TestRegister')
-data.setCell(0, 3, 6221);
+data.setCell(0, 3, 6534);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'registerWithEmptyPass')
+data.setCell(1, 1, 'registerWithEmptyEmail')
 data.setCell(1, 2, 'test.TestRegister')
-data.setCell(1, 3, 3200);
+data.setCell(1, 3, 4346);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'registerWithInvalidEmail')
 data.setCell(2, 2, 'test.TestRegister')
-data.setCell(2, 3, 3144);
+data.setCell(2, 3, 4037);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'registerWithEmptyEmail')
+data.setCell(3, 1, 'registerWithEmptyEmailAndPass')
 data.setCell(3, 2, 'test.TestRegister')
-data.setCell(3, 3, 2983);
+data.setCell(3, 3, 3990);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'registerWithEmptyEmailAndPass')
+data.setCell(4, 1, 'registerWithEmptyPass')
 data.setCell(4, 2, 'test.TestRegister')
-data.setCell(4, 3, 2928);
+data.setCell(4, 3, 3759);
 window.suiteTableData['SmokeTest']= { tableData: data, tableDiv: 'times-div-SmokeTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 18 seconds</span>
+              <span class="suite-total-time">Total running time: 22 seconds</span>
               <div id="times-div-SmokeTest">
               </div> <!-- times-div-SmokeTest -->
             </div> <!-- times-div -->
@@ -288,7 +288,7 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">test.TestRegister</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <span class="method-name">clearScreenShotFolder(org.testng.TestRunner@6326d182)</span>
+                <span class="method-name">clearScreenShotFolder(org.testng.TestRunner@6f8f9349)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-suite before">
@@ -296,72 +296,72 @@ return data;
                 <span class="method-start">11 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
-                <span class="method-name">beforeMethod(safari)</span>
-                <span class="method-start">26 ms</span>
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">29 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">goToAccountPage</span>
-                <span class="method-start">5707 ms</span>
+                <span class="method-start">7903 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">registerWithEmptyEmailAndPass</span>
-                <span class="method-start">6856 ms</span>
+                <span class="method-start">10762 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod(org.testng.TestRunner@6326d182, [TestResult name=registerWithEmptyEmailAndPass status=SUCCESS method...)</span>
-                <span class="method-start">9786 ms</span>
+                <span class="method-name">afterMethod(org.testng.TestRunner@6f8f9349, [TestResult name=registerWithEmptyEmailAndPass status=SUCCESS method...)</span>
+                <span class="method-start">14754 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">goToAccountPage</span>
-                <span class="method-start">9788 ms</span>
+                <span class="method-start">14758 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">registerWithEmptyEmail</span>
-                <span class="method-start">11645 ms</span>
+                <span class="method-start">17806 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod(org.testng.TestRunner@6326d182, [TestResult name=registerWithEmptyEmail status=SUCCESS method=TestRe...)</span>
-                <span class="method-start">14629 ms</span>
+                <span class="method-name">afterMethod(org.testng.TestRunner@6f8f9349, [TestResult name=registerWithEmptyEmail status=SUCCESS method=TestRe...)</span>
+                <span class="method-start">22153 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">goToAccountPage</span>
-                <span class="method-start">14630 ms</span>
+                <span class="method-start">22158 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">registerWithEmptyPass</span>
-                <span class="method-start">16631 ms</span>
+                <span class="method-start">25070 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod(org.testng.TestRunner@6326d182, [TestResult name=registerWithEmptyPass status=SUCCESS method=TestReg...)</span>
-                <span class="method-start">19831 ms</span>
+                <span class="method-name">afterMethod(org.testng.TestRunner@6f8f9349, [TestResult name=registerWithEmptyPass status=SUCCESS method=TestReg...)</span>
+                <span class="method-start">28829 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">goToAccountPage</span>
-                <span class="method-start">19832 ms</span>
+                <span class="method-start">28831 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">registerWithInvalidEmail</span>
-                <span class="method-start">20924 ms</span>
+                <span class="method-start">31204 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod(org.testng.TestRunner@6326d182, [TestResult name=registerWithInvalidEmail status=SUCCESS method=Test...)</span>
-                <span class="method-start">24068 ms</span>
+                <span class="method-name">afterMethod(org.testng.TestRunner@6f8f9349, [TestResult name=registerWithInvalidEmail status=SUCCESS method=Test...)</span>
+                <span class="method-start">35241 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">goToAccountPage</span>
-                <span class="method-start">24069 ms</span>
+                <span class="method-start">35242 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">registerWithValidAccount</span>
-                <span class="method-start">26041 ms</span>
+                <span class="method-start">37904 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod(org.testng.TestRunner@6326d182, [TestResult name=registerWithValidAccount status=SUCCESS method=Test...)</span>
-                <span class="method-start">32263 ms</span>
+                <span class="method-name">afterMethod(org.testng.TestRunner@6f8f9349, [TestResult name=registerWithValidAccount status=SUCCESS method=Test...)</span>
+                <span class="method-start">44438 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">32293 ms</span>
+                <span class="method-start">44449 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

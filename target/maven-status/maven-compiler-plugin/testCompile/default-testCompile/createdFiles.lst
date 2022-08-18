@@ -6,8 +6,8 @@ model/pages/PageBase.class
 utils/Screenshot.class
 Listeners/ListenerISuite.class
 utils/PressKey.class
-test/TestRegister.class
 automation/Automation.class
+test/TestRegister.class
 drivers/DriverFactory.class
 automation/Settings.class
 data/Data.class
