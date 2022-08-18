@@ -25,13 +25,14 @@ public class AccountPage extends PageBase {
     private By loginBtn = By.xpath("//input[@name='login']");
     private By errorMessageXpath = By.xpath("//ul[contains(@class, 'error')]//li");
 
-    public void goToAccountPageByClickMenuItem(){
+    public void goToAccountPageByClickMenuItem() throws InterruptedException {
+        Thread.sleep(500);
         automation.click(myAccountMenuItemXpath);
     }
     public void register(String email, String password) throws InterruptedException {
         automation.enter(regEmailXpath, email);
         automation.enter(regPasswordXpath, password);
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         automation.click(regBtn);
     }
     public void clearRegEmailAndPass(){
@@ -53,7 +54,7 @@ public class AccountPage extends PageBase {
         return automation.getCurrentURL();
     }
     public String getColorMyAccountMenuItem() throws InterruptedException {
-        Thread.sleep(1000);
+        Thread.sleep(500);
         return automation.getCssColor(myAccountMenuItemXpath,"color");
     }
     public String getMyAccountPageTitle(){

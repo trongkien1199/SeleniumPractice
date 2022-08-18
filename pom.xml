@@ -54,6 +54,7 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>TestRegister.xml</suiteXmlFile>
                     </suiteXmlFiles>
+                    <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
             </plugin>
             <!-- Post-Man plugin -->
@@ -70,6 +71,7 @@
                         <inherited>true</inherited>
 
                         <configuration>
+
                             <!-- From Email address -->
                             <from>kienhttest1@gmail.com</from>
 
