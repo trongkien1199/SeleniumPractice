@@ -63,6 +63,7 @@
             <plugin>
                 <groupId>ch.fortysix</groupId>
                 <artifactId>maven-postman-plugin</artifactId>
+                <version>0.1.6</version>
                 <executions>
                     <execution>
                         <id>send a mail</id>

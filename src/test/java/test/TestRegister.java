@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 public class TestRegister extends DriverBase {
     @BeforeMethod(alwaysRun = true)
-    public void goToAccountPage() throws InterruptedException {
+    public void goToAccountPage()  {
         accountPage.goToAccountPageByClickMenuItem();
         //Check if right URL
         Assert.assertEquals(accountPage.getMyAccountPageUrl(),Data.ACCOUNT_SITE);
@@ -20,32 +20,32 @@ public class TestRegister extends DriverBase {
         Assert.assertTrue(accountPage.getColorMyAccountMenuItem().matches(Data.HIGHLIGHTED_MENU_ITEM_COLOR));
     }
     @Test(priority = 0)
-    public void registerWithEmptyEmailAndPass() throws InterruptedException {
+    public void registerWithEmptyEmailAndPass()  {
         accountPage.register("","");
         //Check the error message
         Assert.assertEquals(accountPage.getErrorMessage(),Data.EMPTY_REG_EMAIL_MES_ERR);
     }
     @Test(priority = 1)
-    public void registerWithEmptyEmail() throws InterruptedException {
+    public void registerWithEmptyEmail()  {
         accountPage.register("",Data.PASSWORD);
         //Check the error message
         Assert.assertEquals(accountPage.getErrorMessage(),Data.EMPTY_REG_EMAIL_MES_ERR);
     }
     @Test(priority = 2)
-    public void registerWithEmptyPass() throws InterruptedException {
+    public void registerWithEmptyPass()   {
         accountPage.register(Data.RIGHT_REG_EMAIL,"");
         //Check the error message
         Assert.assertEquals(accountPage.getErrorMessage(),Data.EMPTY_REG_PASSWORD_MES_ERR);
     }
     @Test (priority = 3)
-    public void registerWithInvalidEmail() throws InterruptedException {
+    public void registerWithInvalidEmail()  {
         accountPage.register(Data.INVALID_REG_EMAIL, Data.PASSWORD);
         //Check the error message for INVALID REG EMAIL
         Assert.assertEquals(accountPage.getErrorMessage(), Data.INVALID_REG_EMAIL_ERROR_MES);
 
     }
     @Test(priority = 4)
-    public void registerWithValidAccount() throws InterruptedException {
+    public void registerWithValidAccount()  {
         //register
         accountPage.register(Data.RIGHT_REG_EMAIL, Data.PASSWORD);
         //check if the nav list is displayed

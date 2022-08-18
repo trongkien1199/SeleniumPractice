@@ -12,15 +12,23 @@ public class Automation {
     private WebDriver driver = null;
     private WebElement element = null;
 
+
     public Automation(WebDriver driver)
     {
         this.driver = driver;
     }
-
+    public void pauseTime(int milliseconds){
+        try{
+            Thread.sleep(milliseconds);
+        }catch (InterruptedException e){
+            e.printStackTrace();
+        }
+    }
     public boolean waitForControl(By locator, long timeout) {
         boolean isExist = false;
         try {
-            driver.manage().timeouts().implicitlyWait(timeout, TimeUnit.SECONDS);
+            WebDriverWait wait = new WebDriverWait(driver, timeout);
+            wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
             driver.findElement(locator);
             isExist = true;
         } catch (Exception e) {

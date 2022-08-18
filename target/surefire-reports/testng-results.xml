@@ -2,27 +2,27 @@
 <testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
   <reporter-output>
   </reporter-output>
-  <suite name="SmokeTest" duration-ms="27822" started-at="2022-08-18T21:01:28 ICT" finished-at="2022-08-18T21:01:56 ICT">
+  <suite name="SmokeTest" duration-ms="34693" started-at="2022-08-18T22:07:59 ICT" finished-at="2022-08-18T22:08:33 ICT">
     <groups>
     </groups>
-    <test name="Register Test - SAFARI" duration-ms="27822" started-at="2022-08-18T21:01:28 ICT" finished-at="2022-08-18T21:01:56 ICT">
+    <test name="Register Test - SAFARI" duration-ms="34693" started-at="2022-08-18T22:07:59 ICT" finished-at="2022-08-18T22:08:33 ICT">
       <class name="test.TestRegister">
-        <test-method status="PASS" signature="clearScreenShotFolder(org.testng.ITestContext)[pri:0, instance:test.TestRegister@553f17c]" name="clearScreenShotFolder" is-config="true" duration-ms="10" started-at="2022-08-18T21:01:28 ICT" finished-at="2022-08-18T21:01:28 ICT">
+        <test-method status="PASS" signature="clearScreenShotFolder(org.testng.ITestContext)[pri:0, instance:test.TestRegister@5f341870]" name="clearScreenShotFolder" is-config="true" duration-ms="15" started-at="2022-08-18T22:07:59 ICT" finished-at="2022-08-18T22:07:59 ICT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@66153688]]>
+                <![CDATA[org.testng.TestRunner@54d8c20d]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearScreenShotFolder -->
-        <test-method status="PASS" signature="initWebdriverObject()[pri:0, instance:test.TestRegister@553f17c]" name="initWebdriverObject" is-config="true" duration-ms="0" started-at="2022-08-18T21:01:28 ICT" finished-at="2022-08-18T21:01:28 ICT">
+        <test-method status="PASS" signature="initWebdriverObject()[pri:0, instance:test.TestRegister@5f341870]" name="initWebdriverObject" is-config="true" duration-ms="1" started-at="2022-08-18T22:07:59 ICT" finished-at="2022-08-18T22:07:59 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initWebdriverObject -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:test.TestRegister@553f17c]" name="beforeMethod" is-config="true" duration-ms="7577" started-at="2022-08-18T21:01:28 ICT" finished-at="2022-08-18T21:01:36 ICT">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:test.TestRegister@5f341870]" name="beforeMethod" is-config="true" duration-ms="6973" started-at="2022-08-18T22:07:59 ICT" finished-at="2022-08-18T22:08:06 ICT">
           <params>
             <param index="0">
               <value>
@@ -33,24 +33,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="goToAccountPage()[pri:0, instance:test.TestRegister@553f17c]" name="goToAccountPage" is-config="true" duration-ms="2087" started-at="2022-08-18T21:01:36 ICT" finished-at="2022-08-18T21:01:38 ICT">
+        <test-method status="PASS" signature="goToAccountPage()[pri:0, instance:test.TestRegister@5f341870]" name="goToAccountPage" is-config="true" duration-ms="3396" started-at="2022-08-18T22:08:06 ICT" finished-at="2022-08-18T22:08:09 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToAccountPage -->
-        <test-method status="PASS" signature="registerWithEmptyEmailAndPass()[pri:0, instance:test.TestRegister@553f17c]" name="registerWithEmptyEmailAndPass" duration-ms="1761" started-at="2022-08-18T21:01:38 ICT" finished-at="2022-08-18T21:01:39 ICT">
+        <test-method status="PASS" signature="registerWithEmptyEmailAndPass()[pri:0, instance:test.TestRegister@5f341870]" name="registerWithEmptyEmailAndPass" duration-ms="3564" started-at="2022-08-18T22:08:09 ICT" finished-at="2022-08-18T22:08:13 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerWithEmptyEmailAndPass -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext,org.testng.ITestResult,java.lang.String)[pri:0, instance:test.TestRegister@553f17c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-08-18T21:01:39 ICT" finished-at="2022-08-18T21:01:39 ICT">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext,org.testng.ITestResult,java.lang.String)[pri:0, instance:test.TestRegister@5f341870]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-08-18T22:08:13 ICT" finished-at="2022-08-18T22:08:13 ICT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@66153688]]>
+                <![CDATA[org.testng.TestRunner@54d8c20d]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=registerWithEmptyEmailAndPass status=SUCCESS method=TestRegister.registerWithEmptyEmailAndPass()[pri:0, instance:test.TestRegister@553f17c] output={null}]]]>
+                <![CDATA[[TestResult name=registerWithEmptyEmailAndPass status=SUCCESS method=TestRegister.registerWithEmptyEmailAndPass()[pri:0, instance:test.TestRegister@5f341870] output={null}]]]>
               </value>
             </param>
             <param index="2">
@@ -62,24 +62,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="goToAccountPage()[pri:0, instance:test.TestRegister@553f17c]" name="goToAccountPage" is-config="true" duration-ms="1471" started-at="2022-08-18T21:01:39 ICT" finished-at="2022-08-18T21:01:41 ICT">
+        <test-method status="PASS" signature="goToAccountPage()[pri:0, instance:test.TestRegister@5f341870]" name="goToAccountPage" is-config="true" duration-ms="2295" started-at="2022-08-18T22:08:13 ICT" finished-at="2022-08-18T22:08:15 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToAccountPage -->
-        <test-method status="PASS" signature="registerWithEmptyEmail()[pri:1, instance:test.TestRegister@553f17c]" name="registerWithEmptyEmail" duration-ms="1907" started-at="2022-08-18T21:01:41 ICT" finished-at="2022-08-18T21:01:43 ICT">
+        <test-method status="PASS" signature="registerWithEmptyEmail()[pri:1, instance:test.TestRegister@5f341870]" name="registerWithEmptyEmail" duration-ms="3033" started-at="2022-08-18T22:08:15 ICT" finished-at="2022-08-18T22:08:18 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerWithEmptyEmail -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext,org.testng.ITestResult,java.lang.String)[pri:0, instance:test.TestRegister@553f17c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-08-18T21:01:43 ICT" finished-at="2022-08-18T21:01:43 ICT">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext,org.testng.ITestResult,java.lang.String)[pri:0, instance:test.TestRegister@5f341870]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-08-18T22:08:18 ICT" finished-at="2022-08-18T22:08:18 ICT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@66153688]]>
+                <![CDATA[org.testng.TestRunner@54d8c20d]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=registerWithEmptyEmail status=SUCCESS method=TestRegister.registerWithEmptyEmail()[pri:1, instance:test.TestRegister@553f17c] output={null}]]]>
+                <![CDATA[[TestResult name=registerWithEmptyEmail status=SUCCESS method=TestRegister.registerWithEmptyEmail()[pri:1, instance:test.TestRegister@5f341870] output={null}]]]>
               </value>
             </param>
             <param index="2">
@@ -91,24 +91,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="goToAccountPage()[pri:0, instance:test.TestRegister@553f17c]" name="goToAccountPage" is-config="true" duration-ms="1508" started-at="2022-08-18T21:01:43 ICT" finished-at="2022-08-18T21:01:44 ICT">
+        <test-method status="PASS" signature="goToAccountPage()[pri:0, instance:test.TestRegister@5f341870]" name="goToAccountPage" is-config="true" duration-ms="2160" started-at="2022-08-18T22:08:18 ICT" finished-at="2022-08-18T22:08:20 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToAccountPage -->
-        <test-method status="PASS" signature="registerWithEmptyPass()[pri:2, instance:test.TestRegister@553f17c]" name="registerWithEmptyPass" duration-ms="1693" started-at="2022-08-18T21:01:44 ICT" finished-at="2022-08-18T21:01:46 ICT">
+        <test-method status="PASS" signature="registerWithEmptyPass()[pri:2, instance:test.TestRegister@5f341870]" name="registerWithEmptyPass" duration-ms="2135" started-at="2022-08-18T22:08:20 ICT" finished-at="2022-08-18T22:08:22 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerWithEmptyPass -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext,org.testng.ITestResult,java.lang.String)[pri:0, instance:test.TestRegister@553f17c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-08-18T21:01:46 ICT" finished-at="2022-08-18T21:01:46 ICT">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext,org.testng.ITestResult,java.lang.String)[pri:0, instance:test.TestRegister@5f341870]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-08-18T22:08:22 ICT" finished-at="2022-08-18T22:08:22 ICT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@66153688]]>
+                <![CDATA[org.testng.TestRunner@54d8c20d]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=registerWithEmptyPass status=SUCCESS method=TestRegister.registerWithEmptyPass()[pri:2, instance:test.TestRegister@553f17c] output={null}]]]>
+                <![CDATA[[TestResult name=registerWithEmptyPass status=SUCCESS method=TestRegister.registerWithEmptyPass()[pri:2, instance:test.TestRegister@5f341870] output={null}]]]>
               </value>
             </param>
             <param index="2">
@@ -120,24 +120,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="goToAccountPage()[pri:0, instance:test.TestRegister@553f17c]" name="goToAccountPage" is-config="true" duration-ms="1508" started-at="2022-08-18T21:01:46 ICT" finished-at="2022-08-18T21:01:48 ICT">
+        <test-method status="PASS" signature="goToAccountPage()[pri:0, instance:test.TestRegister@5f341870]" name="goToAccountPage" is-config="true" duration-ms="1800" started-at="2022-08-18T22:08:22 ICT" finished-at="2022-08-18T22:08:24 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToAccountPage -->
-        <test-method status="PASS" signature="registerWithInvalidEmail()[pri:3, instance:test.TestRegister@553f17c]" name="registerWithInvalidEmail" duration-ms="1824" started-at="2022-08-18T21:01:48 ICT" finished-at="2022-08-18T21:01:49 ICT">
+        <test-method status="PASS" signature="registerWithInvalidEmail()[pri:3, instance:test.TestRegister@5f341870]" name="registerWithInvalidEmail" duration-ms="2378" started-at="2022-08-18T22:08:24 ICT" finished-at="2022-08-18T22:08:27 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerWithInvalidEmail -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext,org.testng.ITestResult,java.lang.String)[pri:0, instance:test.TestRegister@553f17c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-08-18T21:01:49 ICT" finished-at="2022-08-18T21:01:49 ICT">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext,org.testng.ITestResult,java.lang.String)[pri:0, instance:test.TestRegister@5f341870]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-08-18T22:08:27 ICT" finished-at="2022-08-18T22:08:27 ICT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@66153688]]>
+                <![CDATA[org.testng.TestRunner@54d8c20d]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=registerWithInvalidEmail status=SUCCESS method=TestRegister.registerWithInvalidEmail()[pri:3, instance:test.TestRegister@553f17c] output={null}]]]>
+                <![CDATA[[TestResult name=registerWithInvalidEmail status=SUCCESS method=TestRegister.registerWithInvalidEmail()[pri:3, instance:test.TestRegister@5f341870] output={null}]]]>
               </value>
             </param>
             <param index="2">
@@ -149,24 +149,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="goToAccountPage()[pri:0, instance:test.TestRegister@553f17c]" name="goToAccountPage" is-config="true" duration-ms="1630" started-at="2022-08-18T21:01:49 ICT" finished-at="2022-08-18T21:01:51 ICT">
+        <test-method status="PASS" signature="goToAccountPage()[pri:0, instance:test.TestRegister@5f341870]" name="goToAccountPage" is-config="true" duration-ms="1956" started-at="2022-08-18T22:08:27 ICT" finished-at="2022-08-18T22:08:28 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToAccountPage -->
-        <test-method status="PASS" signature="registerWithValidAccount()[pri:4, instance:test.TestRegister@553f17c]" name="registerWithValidAccount" duration-ms="4827" started-at="2022-08-18T21:01:51 ICT" finished-at="2022-08-18T21:01:56 ICT">
+        <test-method status="PASS" signature="registerWithValidAccount()[pri:4, instance:test.TestRegister@5f341870]" name="registerWithValidAccount" duration-ms="4962" started-at="2022-08-18T22:08:28 ICT" finished-at="2022-08-18T22:08:33 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerWithValidAccount -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext,org.testng.ITestResult,java.lang.String)[pri:0, instance:test.TestRegister@553f17c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-08-18T21:01:56 ICT" finished-at="2022-08-18T21:01:56 ICT">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext,org.testng.ITestResult,java.lang.String)[pri:0, instance:test.TestRegister@5f341870]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-08-18T22:08:33 ICT" finished-at="2022-08-18T22:08:33 ICT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@66153688]]>
+                <![CDATA[org.testng.TestRunner@54d8c20d]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=registerWithValidAccount status=SUCCESS method=TestRegister.registerWithValidAccount()[pri:4, instance:test.TestRegister@553f17c] output={null}]]]>
+                <![CDATA[[TestResult name=registerWithValidAccount status=SUCCESS method=TestRegister.registerWithValidAccount()[pri:4, instance:test.TestRegister@5f341870] output={null}]]]>
               </value>
             </param>
             <param index="2">
@@ -178,34 +178,34 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:test.TestRegister@553f17c]" name="afterSuite" is-config="true" duration-ms="146" started-at="2022-08-18T21:01:56 ICT" finished-at="2022-08-18T21:01:56 ICT">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:test.TestRegister@5f341870]" name="afterSuite" is-config="true" duration-ms="247" started-at="2022-08-18T22:08:33 ICT" finished-at="2022-08-18T22:08:34 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- test.TestRegister -->
     </test> <!-- Register Test - SAFARI -->
   </suite> <!-- SmokeTest -->
-  <suite name="SmokeTest (0)" duration-ms="87290" started-at="2022-08-18T21:01:56 ICT" finished-at="2022-08-18T21:03:23 ICT">
+  <suite name="SmokeTest (0)" duration-ms="43379" started-at="2022-08-18T22:08:34 ICT" finished-at="2022-08-18T22:09:17 ICT">
     <groups>
     </groups>
-    <test name="Register Test - SAFARI" duration-ms="87290" started-at="2022-08-18T21:01:56 ICT" finished-at="2022-08-18T21:03:23 ICT">
+    <test name="Register Test - SAFARI" duration-ms="43379" started-at="2022-08-18T22:08:34 ICT" finished-at="2022-08-18T22:09:17 ICT">
       <class name="test.TestLogin">
-        <test-method status="PASS" signature="clearScreenShotFolder(org.testng.ITestContext)[pri:0, instance:test.TestLogin@148080bb]" name="clearScreenShotFolder" is-config="true" duration-ms="2" started-at="2022-08-18T21:01:56 ICT" finished-at="2022-08-18T21:01:56 ICT">
+        <test-method status="PASS" signature="clearScreenShotFolder(org.testng.ITestContext)[pri:0, instance:test.TestLogin@55d56113]" name="clearScreenShotFolder" is-config="true" duration-ms="1" started-at="2022-08-18T22:08:34 ICT" finished-at="2022-08-18T22:08:34 ICT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@455824ad]]>
+                <![CDATA[org.testng.TestRunner@4b65d9f4]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearScreenShotFolder -->
-        <test-method status="PASS" signature="initWebdriverObject()[pri:0, instance:test.TestLogin@148080bb]" name="initWebdriverObject" is-config="true" duration-ms="0" started-at="2022-08-18T21:01:56 ICT" finished-at="2022-08-18T21:01:56 ICT">
+        <test-method status="PASS" signature="initWebdriverObject()[pri:0, instance:test.TestLogin@55d56113]" name="initWebdriverObject" is-config="true" duration-ms="0" started-at="2022-08-18T22:08:34 ICT" finished-at="2022-08-18T22:08:34 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initWebdriverObject -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:test.TestLogin@148080bb]" name="beforeMethod" is-config="true" duration-ms="6063" started-at="2022-08-18T21:01:56 ICT" finished-at="2022-08-18T21:02:02 ICT">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:test.TestLogin@55d56113]" name="beforeMethod" is-config="true" duration-ms="5721" started-at="2022-08-18T22:08:34 ICT" finished-at="2022-08-18T22:08:39 ICT">
           <params>
             <param index="0">
               <value>
@@ -216,24 +216,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="goToAccountPage()[pri:0, instance:test.TestLogin@148080bb]" name="goToAccountPage" is-config="true" duration-ms="2085" started-at="2022-08-18T21:02:02 ICT" finished-at="2022-08-18T21:02:04 ICT">
+        <test-method status="PASS" signature="goToAccountPage()[pri:0, instance:test.TestLogin@55d56113]" name="goToAccountPage" is-config="true" duration-ms="2891" started-at="2022-08-18T22:08:39 ICT" finished-at="2022-08-18T22:08:42 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToAccountPage -->
-        <test-method status="PASS" signature="checkIfPasswordIsMasked()[pri:0, instance:test.TestLogin@148080bb]" name="checkIfPasswordIsMasked" duration-ms="149" started-at="2022-08-18T21:02:04 ICT" finished-at="2022-08-18T21:02:04 ICT">
+        <test-method status="PASS" signature="checkIfPasswordIsMasked()[pri:0, instance:test.TestLogin@55d56113]" name="checkIfPasswordIsMasked" duration-ms="213" started-at="2022-08-18T22:08:42 ICT" finished-at="2022-08-18T22:08:43 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkIfPasswordIsMasked -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext,org.testng.ITestResult,java.lang.String)[pri:0, instance:test.TestLogin@148080bb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-08-18T21:02:04 ICT" finished-at="2022-08-18T21:02:04 ICT">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext,org.testng.ITestResult,java.lang.String)[pri:0, instance:test.TestLogin@55d56113]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-08-18T22:08:43 ICT" finished-at="2022-08-18T22:08:43 ICT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@455824ad]]>
+                <![CDATA[org.testng.TestRunner@4b65d9f4]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=checkIfPasswordIsMasked status=SUCCESS method=TestLogin.checkIfPasswordIsMasked()[pri:0, instance:test.TestLogin@148080bb] output={null}]]]>
+                <![CDATA[[TestResult name=checkIfPasswordIsMasked status=SUCCESS method=TestLogin.checkIfPasswordIsMasked()[pri:0, instance:test.TestLogin@55d56113] output={null}]]]>
               </value>
             </param>
             <param index="2">
@@ -245,24 +245,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="goToAccountPage()[pri:0, instance:test.TestLogin@148080bb]" name="goToAccountPage" is-config="true" duration-ms="1592" started-at="2022-08-18T21:02:04 ICT" finished-at="2022-08-18T21:02:06 ICT">
+        <test-method status="PASS" signature="goToAccountPage()[pri:0, instance:test.TestLogin@55d56113]" name="goToAccountPage" is-config="true" duration-ms="3061" started-at="2022-08-18T22:08:43 ICT" finished-at="2022-08-18T22:08:46 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToAccountPage -->
-        <test-method status="PASS" signature="loginWithEmptyUserAndPassword()[pri:0, instance:test.TestLogin@148080bb]" name="loginWithEmptyUserAndPassword" duration-ms="817" started-at="2022-08-18T21:02:06 ICT" finished-at="2022-08-18T21:02:07 ICT">
+        <test-method status="PASS" signature="loginWithEmptyUserAndPassword()[pri:0, instance:test.TestLogin@55d56113]" name="loginWithEmptyUserAndPassword" duration-ms="4592" started-at="2022-08-18T22:08:46 ICT" finished-at="2022-08-18T22:08:50 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithEmptyUserAndPassword -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext,org.testng.ITestResult,java.lang.String)[pri:0, instance:test.TestLogin@148080bb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-08-18T21:02:07 ICT" finished-at="2022-08-18T21:02:07 ICT">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext,org.testng.ITestResult,java.lang.String)[pri:0, instance:test.TestLogin@55d56113]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-08-18T22:08:50 ICT" finished-at="2022-08-18T22:08:50 ICT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@455824ad]]>
+                <![CDATA[org.testng.TestRunner@4b65d9f4]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=loginWithEmptyUserAndPassword status=SUCCESS method=TestLogin.loginWithEmptyUserAndPassword()[pri:0, instance:test.TestLogin@148080bb] output={null}]]]>
+                <![CDATA[[TestResult name=loginWithEmptyUserAndPassword status=SUCCESS method=TestLogin.loginWithEmptyUserAndPassword()[pri:0, instance:test.TestLogin@55d56113] output={null}]]]>
               </value>
             </param>
             <param index="2">
@@ -274,24 +274,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="goToAccountPage()[pri:0, instance:test.TestLogin@148080bb]" name="goToAccountPage" is-config="true" duration-ms="1586" started-at="2022-08-18T21:02:07 ICT" finished-at="2022-08-18T21:02:08 ICT">
+        <test-method status="PASS" signature="goToAccountPage()[pri:0, instance:test.TestLogin@55d56113]" name="goToAccountPage" is-config="true" duration-ms="1749" started-at="2022-08-18T22:08:50 ICT" finished-at="2022-08-18T22:08:52 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToAccountPage -->
-        <test-method status="PASS" signature="loginWithEmptyPassword()[pri:1, instance:test.TestLogin@148080bb]" name="loginWithEmptyPassword" duration-ms="711" started-at="2022-08-18T21:02:08 ICT" finished-at="2022-08-18T21:02:09 ICT">
+        <test-method status="PASS" signature="loginWithEmptyPassword()[pri:1, instance:test.TestLogin@55d56113]" name="loginWithEmptyPassword" duration-ms="1033" started-at="2022-08-18T22:08:52 ICT" finished-at="2022-08-18T22:08:53 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithEmptyPassword -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext,org.testng.ITestResult,java.lang.String)[pri:0, instance:test.TestLogin@148080bb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-08-18T21:02:09 ICT" finished-at="2022-08-18T21:02:09 ICT">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext,org.testng.ITestResult,java.lang.String)[pri:0, instance:test.TestLogin@55d56113]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-08-18T22:08:53 ICT" finished-at="2022-08-18T22:08:53 ICT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@455824ad]]>
+                <![CDATA[org.testng.TestRunner@4b65d9f4]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=loginWithEmptyPassword status=SUCCESS method=TestLogin.loginWithEmptyPassword()[pri:1, instance:test.TestLogin@148080bb] output={null}]]]>
+                <![CDATA[[TestResult name=loginWithEmptyPassword status=SUCCESS method=TestLogin.loginWithEmptyPassword()[pri:1, instance:test.TestLogin@55d56113] output={null}]]]>
               </value>
             </param>
             <param index="2">
@@ -303,24 +303,28 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="goToAccountPage()[pri:0, instance:test.TestLogin@148080bb]" name="goToAccountPage" is-config="true" duration-ms="1529" started-at="2022-08-18T21:02:09 ICT" finished-at="2022-08-18T21:02:11 ICT">
+        <test-method status="PASS" signature="goToAccountPage()[pri:0, instance:test.TestLogin@55d56113]" name="goToAccountPage" is-config="true" duration-ms="1814" started-at="2022-08-18T22:08:53 ICT" finished-at="2022-08-18T22:08:55 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToAccountPage -->
-        <test-method status="PASS" signature="loginWithEmptyUser()[pri:2, instance:test.TestLogin@148080bb]" name="loginWithEmptyUser" duration-ms="696" started-at="2022-08-18T21:02:11 ICT" finished-at="2022-08-18T21:02:11 ICT">
+        <test-method status="PASS" signature="loginWithEmptyUser()[pri:2, instance:test.TestLogin@55d56113]" name="loginWithEmptyUser" duration-ms="1263" started-at="2022-08-18T22:08:55 ICT" finished-at="2022-08-18T22:08:56 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithEmptyUser -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext,org.testng.ITestResult,java.lang.String)[pri:0, instance:test.TestLogin@148080bb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-08-18T21:02:11 ICT" finished-at="2022-08-18T21:02:11 ICT">
+        <test-method status="PASS" signature="goToAccountPage()[pri:0, instance:test.TestLogin@55d56113]" name="goToAccountPage" is-config="true" duration-ms="2034" started-at="2022-08-18T22:08:56 ICT" finished-at="2022-08-18T22:08:58 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToAccountPage -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext,org.testng.ITestResult,java.lang.String)[pri:0, instance:test.TestLogin@55d56113]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-08-18T22:08:56 ICT" finished-at="2022-08-18T22:08:56 ICT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@455824ad]]>
+                <![CDATA[org.testng.TestRunner@4b65d9f4]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=loginWithEmptyUser status=SUCCESS method=TestLogin.loginWithEmptyUser()[pri:2, instance:test.TestLogin@148080bb] output={null}]]]>
+                <![CDATA[[TestResult name=loginWithEmptyUser status=SUCCESS method=TestLogin.loginWithEmptyUser()[pri:2, instance:test.TestLogin@55d56113] output={null}]]]>
               </value>
             </param>
             <param index="2">
@@ -332,24 +336,20 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="goToAccountPage()[pri:0, instance:test.TestLogin@148080bb]" name="goToAccountPage" is-config="true" duration-ms="1524" started-at="2022-08-18T21:02:11 ICT" finished-at="2022-08-18T21:02:13 ICT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goToAccountPage -->
-        <test-method status="PASS" signature="loginWithInvalidAccount()[pri:3, instance:test.TestLogin@148080bb]" name="loginWithInvalidAccount" duration-ms="711" started-at="2022-08-18T21:02:13 ICT" finished-at="2022-08-18T21:02:14 ICT">
+        <test-method status="PASS" signature="loginWithInvalidAccount()[pri:3, instance:test.TestLogin@55d56113]" name="loginWithInvalidAccount" duration-ms="1034" started-at="2022-08-18T22:08:58 ICT" finished-at="2022-08-18T22:08:59 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithInvalidAccount -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext,org.testng.ITestResult,java.lang.String)[pri:0, instance:test.TestLogin@148080bb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-08-18T21:02:14 ICT" finished-at="2022-08-18T21:02:14 ICT">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext,org.testng.ITestResult,java.lang.String)[pri:0, instance:test.TestLogin@55d56113]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-08-18T22:08:59 ICT" finished-at="2022-08-18T22:08:59 ICT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@455824ad]]>
+                <![CDATA[org.testng.TestRunner@4b65d9f4]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=loginWithInvalidAccount status=SUCCESS method=TestLogin.loginWithInvalidAccount()[pri:3, instance:test.TestLogin@148080bb] output={null}]]]>
+                <![CDATA[[TestResult name=loginWithInvalidAccount status=SUCCESS method=TestLogin.loginWithInvalidAccount()[pri:3, instance:test.TestLogin@55d56113] output={null}]]]>
               </value>
             </param>
             <param index="2">
@@ -361,24 +361,28 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="goToAccountPage()[pri:0, instance:test.TestLogin@148080bb]" name="goToAccountPage" is-config="true" duration-ms="1498" started-at="2022-08-18T21:02:14 ICT" finished-at="2022-08-18T21:02:15 ICT">
+        <test-method status="PASS" signature="goToAccountPage()[pri:0, instance:test.TestLogin@55d56113]" name="goToAccountPage" is-config="true" duration-ms="1810" started-at="2022-08-18T22:08:59 ICT" finished-at="2022-08-18T22:09:01 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToAccountPage -->
-        <test-method status="PASS" signature="loginWithNonExistAccount()[pri:4, instance:test.TestLogin@148080bb]" name="loginWithNonExistAccount" duration-ms="753" started-at="2022-08-18T21:02:15 ICT" finished-at="2022-08-18T21:02:16 ICT">
+        <test-method status="PASS" signature="loginWithNonExistAccount()[pri:4, instance:test.TestLogin@55d56113]" name="loginWithNonExistAccount" duration-ms="1034" started-at="2022-08-18T22:09:01 ICT" finished-at="2022-08-18T22:09:02 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithNonExistAccount -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext,org.testng.ITestResult,java.lang.String)[pri:0, instance:test.TestLogin@148080bb]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-08-18T21:02:16 ICT" finished-at="2022-08-18T21:02:16 ICT">
+        <test-method status="PASS" signature="goToAccountPage()[pri:0, instance:test.TestLogin@55d56113]" name="goToAccountPage" is-config="true" duration-ms="1879" started-at="2022-08-18T22:09:02 ICT" finished-at="2022-08-18T22:09:04 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToAccountPage -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext,org.testng.ITestResult,java.lang.String)[pri:0, instance:test.TestLogin@55d56113]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-08-18T22:09:02 ICT" finished-at="2022-08-18T22:09:02 ICT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@455824ad]]>
+                <![CDATA[org.testng.TestRunner@4b65d9f4]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=loginWithNonExistAccount status=SUCCESS method=TestLogin.loginWithNonExistAccount()[pri:4, instance:test.TestLogin@148080bb] output={null}]]]>
+                <![CDATA[[TestResult name=loginWithNonExistAccount status=SUCCESS method=TestLogin.loginWithNonExistAccount()[pri:4, instance:test.TestLogin@55d56113] output={null}]]]>
               </value>
             </param>
             <param index="2">
@@ -390,53 +394,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="goToAccountPage()[pri:0, instance:test.TestLogin@148080bb]" name="goToAccountPage" is-config="true" duration-ms="1852" started-at="2022-08-18T21:02:16 ICT" finished-at="2022-08-18T21:02:18 ICT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goToAccountPage -->
-        <test-method status="PASS" signature="loginWithValidAccount()[pri:5, instance:test.TestLogin@148080bb]" name="loginWithValidAccount" duration-ms="4450" started-at="2022-08-18T21:02:18 ICT" finished-at="2022-08-18T21:02:22 ICT">
+        <test-method status="PASS" signature="loginWithValidAccount()[pri:5, instance:test.TestLogin@55d56113]" name="loginWithValidAccount" duration-ms="5225" started-at="2022-08-18T22:09:04 ICT" finished-at="2022-08-18T22:09:09 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithValidAccount -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext,org.testng.ITestResult,java.lang.String)[pri:0, instance:test.TestLogin@148080bb]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-08-18T21:02:22 ICT" finished-at="2022-08-18T21:02:22 ICT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@455824ad]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name=loginWithValidAccount status=SUCCESS method=TestLogin.loginWithValidAccount()[pri:5, instance:test.TestLogin@148080bb] output={null}]]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="goToAccountPage()[pri:0, instance:test.TestLogin@148080bb]" name="goToAccountPage" is-config="true" duration-ms="1545" started-at="2022-08-18T21:02:22 ICT" finished-at="2022-08-18T21:02:24 ICT">
+        <test-method status="PASS" signature="goToAccountPage()[pri:0, instance:test.TestLogin@55d56113]" name="goToAccountPage" is-config="true" duration-ms="1740" started-at="2022-08-18T22:09:09 ICT" finished-at="2022-08-18T22:09:11 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToAccountPage -->
-        <test-method status="PASS" signature="loginAuthentication()[pri:6, instance:test.TestLogin@148080bb]" name="loginAuthentication" duration-ms="59719" started-at="2022-08-18T21:02:24 ICT" finished-at="2022-08-18T21:03:23 ICT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginAuthentication -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext,org.testng.ITestResult,java.lang.String)[pri:0, instance:test.TestLogin@148080bb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-08-18T21:03:23 ICT" finished-at="2022-08-18T21:03:23 ICT">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext,org.testng.ITestResult,java.lang.String)[pri:0, instance:test.TestLogin@55d56113]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-08-18T22:09:09 ICT" finished-at="2022-08-18T22:09:09 ICT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@455824ad]]>
+                <![CDATA[org.testng.TestRunner@4b65d9f4]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=loginAuthentication status=SUCCESS method=TestLogin.loginAuthentication()[pri:6, instance:test.TestLogin@148080bb] output={null}]]]>
+                <![CDATA[[TestResult name=loginWithValidAccount status=SUCCESS method=TestLogin.loginWithValidAccount()[pri:5, instance:test.TestLogin@55d56113] output={null}]]]>
               </value>
             </param>
             <param index="2">
@@ -448,7 +423,32 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:test.TestLogin@148080bb]" name="afterSuite" is-config="true" duration-ms="182" started-at="2022-08-18T21:03:23 ICT" finished-at="2022-08-18T21:03:24 ICT">
+        <test-method status="PASS" signature="loginAuthentication()[pri:6, instance:test.TestLogin@55d56113]" name="loginAuthentication" duration-ms="6277" started-at="2022-08-18T22:09:11 ICT" finished-at="2022-08-18T22:09:17 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAuthentication -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext,org.testng.ITestResult,java.lang.String)[pri:0, instance:test.TestLogin@55d56113]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-08-18T22:09:17 ICT" finished-at="2022-08-18T22:09:17 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4b65d9f4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=loginAuthentication status=SUCCESS method=TestLogin.loginAuthentication()[pri:6, instance:test.TestLogin@55d56113] output={null}]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:test.TestLogin@55d56113]" name="afterSuite" is-config="true" duration-ms="232" started-at="2022-08-18T22:09:17 ICT" finished-at="2022-08-18T22:09:17 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

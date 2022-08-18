@@ -12,8 +12,8 @@ public class HomePage extends PageBase{
     private By navigateLinksXpath = By.xpath("//li[contains(@class,'navigation-link')]");
     private By logoutBtn = By.xpath("//a[contains(text(),'Sign out')]");
 
-    public boolean navigationLinkListIsDisplayed() throws InterruptedException {
-        Thread.sleep(2000);
+    public boolean navigationLinkListIsDisplayed()  {
+        automation.pauseTime(1500);
         return automation.isElementDisplayed(navigateLinksXpath);
     }
     public void logoutAccount(){
