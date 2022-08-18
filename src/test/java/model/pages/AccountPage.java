@@ -25,15 +25,17 @@ public class AccountPage extends PageBase {
     private static By passwordXpath = By.xpath("//input[@id='password']");
     private By loginBtn = By.xpath("//input[@name='login']");
     private By errorMessageXpath = By.xpath("//ul[contains(@class, 'error')]//li");
+    private By loginFormXpath = By.xpath("//form[@class='login']");
+    private By registerFormXpath = By.xpath("//form[@class='register']");
 
-    public void goToAccountPageByClickMenuItem() throws InterruptedException {
-        Thread.sleep(500);
+    public void goToAccountPageByClickMenuItem()  {
+        automation.pauseTime(500);
         automation.click(myAccountMenuItemXpath);
     }
-    public void register(String email, String password) throws InterruptedException {
+    public void register(String email, String password) {
         automation.enter(regEmailXpath, email);
         automation.enter(regPasswordXpath, password);
-        Thread.sleep(1000);
+        automation.pauseTime(1000);
         automation.click(regBtn);
     }
     public void clearRegEmailAndPass(){
@@ -43,7 +45,7 @@ public class AccountPage extends PageBase {
     public void registerWithEmptyEmailAndPass(){
         automation.click(regBtn);
     }
-    public void login(String username, String password) throws InterruptedException {
+    public void login(String username, String password)  {
         automation.enter(usernameXpath, username);
         automation.enter(passwordXpath, password);
         automation.click(loginBtn);
@@ -54,8 +56,8 @@ public class AccountPage extends PageBase {
     public String getMyAccountPageUrl(){
         return automation.getCurrentURL();
     }
-    public String getColorMyAccountMenuItem() throws InterruptedException {
-        Thread.sleep(500);
+    public String getColorMyAccountMenuItem() {
+        automation.pauseTime(500);
         return automation.getCssColor(myAccountMenuItemXpath,"color");
     }
     public void enterPassword(String password){
@@ -67,6 +69,12 @@ public class AccountPage extends PageBase {
             isMasked = true;
         }
         return isMasked;
+    }
+    public boolean checkIfLoginFormPresent(){
+        return automation.isElementDisplayed(loginFormXpath);
+    }
+    public boolean checkIfRegisterFormPresent(){
+        return automation.isElementDisplayed(registerFormXpath);
     }
     public String getMyAccountPageTitle(){
         return automation.getTitle();
