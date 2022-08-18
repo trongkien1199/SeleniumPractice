@@ -53,6 +53,7 @@
                 <configuration>
                     <suiteXmlFiles>
                         <suiteXmlFile>TestRegister.xml</suiteXmlFile>
+                        <suiteXmlFile>TestLogin.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <testFailureIgnore>true</testFailureIgnore>
                 </configuration>

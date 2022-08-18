@@ -13,7 +13,7 @@ public class PageBase {
     private static final int POLLING = 100;
     protected WebDriver driver;
     protected WebDriverWait wait;
-    protected Automation automation;
+    protected static Automation automation;
     public PageBase(WebDriver driver)
     {
         Actions builder = new Actions(driver);

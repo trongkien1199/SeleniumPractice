@@ -3,6 +3,7 @@ package model.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -21,7 +22,7 @@ public class AccountPage extends PageBase {
     private By regPasswordHint = By.xpath("//div[contains(@class,'password-strength')]");
     private By regBtn = By.xpath("//input[@name='register']");
     private By usernameXpath = By.xpath("//input[@id='username']");
-    private By passwordXpath = By.xpath("//input[@id='password']");
+    private static By passwordXpath = By.xpath("//input[@id='password']");
     private By loginBtn = By.xpath("//input[@name='login']");
     private By errorMessageXpath = By.xpath("//ul[contains(@class, 'error')]//li");
 
@@ -57,7 +58,18 @@ public class AccountPage extends PageBase {
         Thread.sleep(500);
         return automation.getCssColor(myAccountMenuItemXpath,"color");
     }
+    public void enterPassword(String password){
+        automation.enter(passwordXpath, password);
+    }
+    public boolean checkPasswordIsMasked(){
+        boolean isMasked = false;
+        if(automation.getAttribute(passwordXpath,"type").equals("password")){
+            isMasked = true;
+        }
+        return isMasked;
+    }
     public String getMyAccountPageTitle(){
         return automation.getTitle();
     }
+
 }
