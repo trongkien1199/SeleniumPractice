@@ -2,13 +2,12 @@ package drivers;
 
 import data.Data;
 import model.pages.AccountPage;
-import model.pages.HomePage;
+import model.pages.MyAccountPage;
 import model.pages.Navigate;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.testng.ISuite;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
@@ -23,7 +22,7 @@ public class DriverBase {
     private DriverFactory driverFactory;
     protected Navigate navigateURL;
     protected AccountPage accountPage;
-    protected HomePage homePage;
+    protected MyAccountPage myAccountPage;
     private static List<DriverFactory> webdriverThreadPool = Collections.synchronizedList(new ArrayList<DriverFactory>());
     private static ThreadLocal<DriverFactory> driverThread;
 
@@ -60,7 +59,7 @@ public class DriverBase {
         navigateURL = new Navigate(driver);
         accountPage = new AccountPage(driver);
         navigateURL.open(Data._SITE);
-        homePage = new HomePage(driver);
+        myAccountPage = new MyAccountPage(driver);
 
     }
 

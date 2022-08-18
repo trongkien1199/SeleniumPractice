@@ -55,16 +55,16 @@ public class TestLogin extends DriverBase {
     public void loginWithValidAccount()   {
         accountPage.login(Data.USER_NAME, Data.PASSWORD);
         //check if the nav list is displayed
-        Assert.assertTrue(homePage.navigationLinkListIsDisplayed());
-        homePage.logoutAccount();
+        Assert.assertTrue(myAccountPage.navigationLinkListIsDisplayed());
+        myAccountPage.logoutAccount();
     }
     @Test(priority = 6)
     public void loginAuthentication()   {
         accountPage.login(Data.USER_NAME, Data.PASSWORD);
         //check if the nav list is displayed
-        Assert.assertTrue(homePage.navigationLinkListIsDisplayed());
+        Assert.assertTrue(myAccountPage.navigationLinkListIsDisplayed());
         //logout from homepage
-        homePage.logoutAccount();
+        myAccountPage.logoutAccount();
         //Press back
         driver.navigate().back();
         // Check if login and register form is display

@@ -2,12 +2,8 @@ package test;
 
 import data.Data;
 import drivers.DriverBase;
-import model.pages.Navigate;
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class TestRegister extends DriverBase {
@@ -49,6 +45,6 @@ public class TestRegister extends DriverBase {
         //register
         accountPage.register(Data.RIGHT_REG_EMAIL, Data.PASSWORD);
         //check if the nav list is displayed
-        Assert.assertTrue(homePage.navigationLinkListIsDisplayed());
+        Assert.assertTrue(myAccountPage.navigationLinkListIsDisplayed());
     }
 }

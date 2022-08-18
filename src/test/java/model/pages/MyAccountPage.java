@@ -3,14 +3,15 @@ package model.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class HomePage extends PageBase{
+public class MyAccountPage extends PageBase{
 
-    public HomePage(WebDriver driver)
+    public MyAccountPage(WebDriver driver)
     {
         super(driver);
     }
     private By navigateLinksXpath = By.xpath("//li[contains(@class,'navigation-link')]");
     private By logoutBtn = By.xpath("//a[contains(text(),'Sign out')]");
+
 
     public boolean navigationLinkListIsDisplayed()  {
         automation.pauseTime(1500);
@@ -19,4 +20,5 @@ public class HomePage extends PageBase{
     public void logoutAccount(){
         automation.click(logoutBtn);
     }
+
 }
