@@ -28,7 +28,7 @@ public class Automation {
         boolean isExist = false;
         try {
             WebDriverWait wait = new WebDriverWait(driver, timeout);
-            wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+            wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));
             driver.findElement(locator);
             isExist = true;
         } catch (Exception e) {

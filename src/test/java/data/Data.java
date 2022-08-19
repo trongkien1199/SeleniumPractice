@@ -7,6 +7,8 @@ public class Data {
     public static final String _SITE = "https://practice.automationtesting.in/";
     public static final String ACCOUNT_SITE = "https://practice.automationtesting.in/my-account/";
     public static final String ACCOUNT_SITE_TITLE = "My Account – Automation Practice Site";
+    public static final String ORDERS_SITE = "https://practice.automationtesting.in/my-account/orders/";
+    public static final String ORDERS_SITE_MES_INFO = "No order has been made yet.";
     private static Random random = new Random();
     static int  num = random.nextInt(3000);
     public static final String RIGHT_REG_EMAIL = "kientest"+ num +"@gmail.com";
@@ -19,8 +21,9 @@ public class Data {
     public static final String EMPTY_USERNAME_ERROR_MES = "Error: Username is required.";
     public static final String EMPTY_PASS_ERROR_MES = "Error: Password is required.";
     public static final String WRONG_PASSWORD_ERR_MES = "Error: the password you entered for the username "+USER_NAME+ " is incorrect. Lost your password?";
-//    public static final String INVALID_USER_LOGIN=substringText("@",USER_NAME);
-//    public static final String INVALID_USERNAME_ERR_MES = "Error: the password you entered for the username "+INVALID_USER_LOGIN+ " is incorrect. Lost your password?";
+    public static final String WELCOME_USERNAME=substringText("@",USER_NAME);
+    public static final String WELCOME_TEXT = "Hello "+WELCOME_USERNAME+" (not "+WELCOME_USERNAME+"? Sign out)";
+    public static final String DASHBOARD_CONTENT_TEXT="From your account dashboard you can view your recent orders, manage your shipping and billing addresses and edit your password and account details.";
     public static final String NON_EXIST_USERNAME_ERR_MES = "Error: A user could not be found with this email address.";
     public static final String EMPTY_REG_EMAIL_MES_ERR= "Error: Please provide a valid email address.";
     public static final String EMPTY_REG_PASSWORD_MES_ERR= "Error: Please enter an account password.";

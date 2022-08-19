@@ -1,9 +1,11 @@
 <suite name = "SmokeTest"  parallel="none" threa-count ="4" >
-    <test name = "LOGIN TEST - SAFARI">
+    <test name = "SMOKETEST - CHROME">
         <parameter name="browser" value="chrome"></parameter>
         <classes>
-            <class name = "test.TestLogin">
+            <class name = "test.TestLogin"></class>
+            <class name = "test.TestRegister">
             </class>
+            <class name = "test.TestMyAccountPage"></class>
         </classes>
     </test>
 </suite>

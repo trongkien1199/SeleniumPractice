@@ -1,5 +1,6 @@
 package drivers;
 
+import automation.Automation;
 import data.Data;
 import model.pages.AccountPage;
 import model.pages.MyAccountPage;
@@ -23,6 +24,7 @@ public class DriverBase {
     protected Navigate navigateURL;
     protected AccountPage accountPage;
     protected MyAccountPage myAccountPage;
+    protected Automation automation;
     private static List<DriverFactory> webdriverThreadPool = Collections.synchronizedList(new ArrayList<DriverFactory>());
     private static ThreadLocal<DriverFactory> driverThread;
 
@@ -58,9 +60,10 @@ public class DriverBase {
         driver = getDriver(browserName);
         navigateURL = new Navigate(driver);
         accountPage = new AccountPage(driver);
-        navigateURL.open(Data._SITE);
         myAccountPage = new MyAccountPage(driver);
-
+        automation = new Automation(driver);
+        automation.pauseTime(500);
+        if (!automation.getCurrentURL().equals(Data._SITE)) {navigateURL.open(Data._SITE);}
     }
 
     @AfterMethod(alwaysRun = true)

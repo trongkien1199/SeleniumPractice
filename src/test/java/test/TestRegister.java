@@ -46,5 +46,7 @@ public class TestRegister extends DriverBase {
         accountPage.register(Data.RIGHT_REG_EMAIL, Data.PASSWORD);
         //check if the nav list is displayed
         Assert.assertTrue(myAccountPage.navigationLinkListIsDisplayed());
+        //Logout
+        myAccountPage.logoutAccount();
     }
 }
