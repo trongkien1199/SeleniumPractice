@@ -39,7 +39,24 @@ public class TestMyAccountPage extends DriverBase  {
        //CHeck If the message info is right
         Assert.assertTrue(myAccountPage.getMessageInfoText().contains(Data.ORDERS_SITE_MES_INFO));
     }
+    @Test
+    public void MyAccountAddressFunc(){
+        //Click on Myaccount link
+        accountPage.goToAccountPageByClickMenuItem();
+        // Click on Address link
+        myAccountPage.goToAddress();
+        //CHeck if the shipping and billing address is present
+        Assert.assertTrue(myAccountPage.billingAddresIsDisplay());
+        Assert.assertTrue(myAccountPage.shippingAddressIsDisplay());
+    }
+    @Test
+    public void editShippingAddress(){
+        //Click on Myaccount link
+        accountPage.goToAccountPageByClickMenuItem();
+        // Click on Address link
+        myAccountPage.goToAddress();
 
+    }
     @AfterMethod (alwaysRun = true)
     public void logout(){
         try{

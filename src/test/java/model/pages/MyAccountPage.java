@@ -17,6 +17,8 @@ public class MyAccountPage extends PageBase{
     private By ordersNavLink = By.xpath("//a[contains(@href,'orders')]");
     private By downloadNavLink = By.xpath("//a[contains(@href,'download')]");
     private By addressNavLink = By.xpath("//a[contains(@href,'edit-address')]");
+    private By billingAddress = By.xpath("//h3[text()='Billing Address']");
+    private By shippingAdress = By.xpath("//h3[text()='Shipping Address']");
     private By accountDetailsNavLink = By.xpath("//a[contains(@href,'edit-account')]");
     private By logoutNavLink = By.xpath("//a[contains(@href,'customer-logout')]");
     private By messageInfo = By.xpath("//div[contains(@class,'Message--info')]");
@@ -44,7 +46,16 @@ public class MyAccountPage extends PageBase{
     public void goToDashboard(){
         automation.click(dashboardNavLink);
     }
+    public void goToAddress(){
+        automation.click(addressNavLink);
+    }
     public String getMessageInfoText(){
         return automation.getText(messageInfo);
+    }
+    public boolean billingAddresIsDisplay(){
+        return automation.isElementDisplayed(billingAddress);
+    }
+    public boolean shippingAddressIsDisplay(){
+        return automation.isElementDisplayed(billingAddress);
     }
 }
