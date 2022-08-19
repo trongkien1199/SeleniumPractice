@@ -1,7 +1,9 @@
 package drivers;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
@@ -11,13 +13,12 @@ public class Webdriver {
         String path = System.getProperty("user.dir");
         String os = System.getProperty("os.name").replaceAll("\\s","");
         if(browserName.equals("chrome")){
-            String chromePath = path + "/driver/" + os + "/chromedriver";
-        System.setProperty("webdriver.chrome.driver", chromePath);
+            ChromeOptions options = new ChromeOptions();
+            WebDriverManager.chromedriver().setup();
             //Open browser
-            return  new ChromeDriver();
+            return  new ChromeDriver(options);
         }else if(browserName.equals("firefox")){
-            String firefoxPath = path + "/driver/" + os + "/geckodriver";
-            System.setProperty("webdriver.gecko.driver", firefoxPath);
+            WebDriverManager.firefoxdriver().setup();
             return  new FirefoxDriver();
         }else if(browserName.equals("edge")){
             String edgePath = path + "/driver/" + os + "/msedgedriver";

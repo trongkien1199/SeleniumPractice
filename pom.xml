@@ -8,6 +8,19 @@
     <artifactId>SeleniumPractice</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.36</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>4.4.0</version>
+        </dependency>
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -53,8 +66,9 @@
                 <version>2.20.1</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>TestRegister.xml</suiteXmlFile>
-                        <suiteXmlFile>TestLogin.xml</suiteXmlFile>
+                        <suiteXmlFile>SmokeTest.xml</suiteXmlFile>
+<!--                        <suiteXmlFile>TestLogin.xml</suiteXmlFile>-->
+<!--                        <suiteXmlFile>TestMyAccountPage.xml</suiteXmlFile>-->
                     </suiteXmlFiles>
                     <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
